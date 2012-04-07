@@ -9,7 +9,7 @@
 	url = https://github.com/altercation/vim-colors-solarized
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
-	url = https://github.com/msanders/snipmate.vim
+	url = https://github.com/garbas/vim-snipmate.git
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = https://github.com/tpope/vim-surround
