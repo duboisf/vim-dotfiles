@@ -6,3 +6,4 @@ setlocal number
 setlocal smartindent
 setlocal smarttab
 
+setlocal omnifunc=csscomplete#CompleteCSS
