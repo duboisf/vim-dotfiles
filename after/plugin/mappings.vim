@@ -123,6 +123,9 @@ imap <C-8> <Esc>8gt
 map  <C-9> 9gt
 imap <C-9> <Esc>9gt
 
+" Goto end of line in insert mode
+imap <C-e> <End>
+
 ""
 "" Command-Line Mappings
 ""
