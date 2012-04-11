@@ -1,33 +1,33 @@
-[submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
+[submodule "bundle-available/nerdtree"]
+	path = bundle-available/nerdtree
 	url = https://github.com/scrooloose/nerdtree
-[submodule "bundle/vim-fugitive"]
-	path = bundle/vim-fugitive
+[submodule "bundle-available/vim-fugitive"]
+	path = bundle-available/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
-[submodule "bundle/vim-colors-solarized"]
-	path = bundle/vim-colors-solarized
+[submodule "bundle-available/vim-colors-solarized"]
+	path = bundle-available/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized
-[submodule "bundle/snipmate"]
-	path = bundle/snipmate
+[submodule "bundle-available/snipmate"]
+	path = bundle-available/snipmate
 	url = https://github.com/garbas/vim-snipmate.git
-[submodule "bundle/vim-surround"]
-	path = bundle/vim-surround
+[submodule "bundle-available/vim-surround"]
+	path = bundle-available/vim-surround
 	url = https://github.com/tpope/vim-surround
-[submodule "bundle/ctrlp.vim"]
-	path = bundle/ctrlp.vim
+[submodule "bundle-available/ctrlp"]
+	path = bundle-available/ctrlp
 	url = https://github.com/kien/ctrlp.vim
-[submodule "bundle/vim-unimpaired"]
-	path = bundle/vim-unimpaired
+[submodule "bundle-available/vim-unimpaired"]
+	path = bundle-available/vim-unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
-[submodule "bundle/vim-smartinput"]
-	path = bundle/vim-smartinput
+[submodule "bundle-available/vim-smartinput"]
+	path = bundle-available/vim-smartinput
 	url = https://github.com/kana/vim-smartinput
-[submodule "bundle/vim-javascript"]
-	path = bundle/vim-javascript
+[submodule "bundle-available/vim-javascript"]
+	path = bundle-available/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
-[submodule "bundle/vim-jade"]
-	path = bundle/vim-jade
+[submodule "bundle-available/vim-jade"]
+	path = bundle-available/vim-jade
 	url = https://github.com/digitaltoad/vim-jade
-[submodule "bundle/vim-stylus"]
-	path = bundle/vim-stylus
+[submodule "bundle-available/vim-stylus"]
+	path = bundle-available/vim-stylus
 	url = https://github.com/wavded/vim-stylus
