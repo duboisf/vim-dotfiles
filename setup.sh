@@ -1,5 +1,12 @@
 #!/bin/bash
 
+typeset -i PLUGINS_ONLY=0
+
+if [[ $1 == "-p" ]]; then
+    PLUGINS_ONLY=1
+    shift
+fi
+
 timestamp=`date +%Y-%m-%d_%H:%m`
 
 cd ~
@@ -12,13 +19,15 @@ backup_file() {
     fi
 }
 
-backup_file ~/.vimrc
-
-ln -v -s ~/.vim/vimrc .vimrc
-set -x
-touch ~/.vimrc.before
-touch ~/.vimrc.after
-set +x
+if (( $PLUGINS_ONLY == 0 )); then
+    backup_file ~/.vimrc
+    
+    ln -v -s ~/.vim/vimrc .vimrc
+    set -x
+    touch ~/.vimrc.before
+    touch ~/.vimrc.after
+    set +x
+fi
 
 if [[ ! -d ~/.vim/bundle ]]; then
     mkdir ~/.vim/bundle
@@ -43,3 +52,5 @@ while true; do
             ;;
     esac
 done
+
+# vim: sw=4:sts=4:ts=4
