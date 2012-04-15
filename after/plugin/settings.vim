@@ -15,8 +15,3 @@ hi User1 cterm=bold,reverse ctermfg=red ctermbg=245
 
 " Always display status line
 set laststatus=2
-
-""
-"" Completion
-""
-set completeopt=longest
