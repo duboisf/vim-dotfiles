@@ -38,9 +38,11 @@ while true; do
     read answer
     case $answer in
         y|Y)
+            cd ~/.vim
+            git submodule update --init
             cd ~/.vim/bundle
             for b in ../bundle-available/*; do
-                ln -v -s $b .
+                ln -v -s $b . 2> /dev/null
             done
             break
             ;;
